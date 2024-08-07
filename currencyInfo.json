@@ -1,0 +1,256 @@
+{
+    "currencyInfo": [
+        {
+            "currency": "EUR",
+            "symbol": "€",
+            "rate": "1",
+            "left": true
+        },
+        {
+            "currency": "USD",
+            "symbol": "$",
+            "rate": "1.133616",
+            "left": true
+        },
+        {
+            "currency": "PLN",
+            "symbol": "zł",
+            "rate": "4.482005",
+            "left": false
+        },
+        {
+            "currency": "GBP",
+            "symbol": "£",
+            "rate": "0.87751785",
+            "left": true
+        },
+        {
+            "currency": "SEK",
+            "symbol": "SKR",
+            "rate": "12.2134375",
+            "left": false
+        },
+        {
+            "currency": "CAD",
+            "symbol": "CA$",
+            "rate": "1.5625885",
+            "left": true
+        },
+        {
+            "currency": "AED",
+            "symbol": "دد.إ",
+            "rate": "4.165078445",
+            "left": true
+        },
+        {
+            "currency": "AUD",
+            "symbol": "AU$",
+            "rate": "1.716726",
+            "left": true
+        },
+        {
+            "currency": "AZN",
+            "symbol": "₼",
+            "rate": "1.92775957",
+            "left": false
+        },
+        {
+            "currency": "BDT",
+            "symbol": "৳",
+            "rate": "133.277952995",
+            "left": true
+        },
+        {
+            "currency": "BGN",
+            "symbol": "ЛВ.",
+            "rate": "2.043811",
+            "left": false
+        },
+        {
+            "currency": "BHD",
+            "symbol": "BD",
+            "rate": "0.42743426",
+            "left": true
+        },
+        {
+            "currency": "BRL",
+            "symbol": "R$",
+            "rate": "6.3493155",
+            "left": true
+        },
+        {
+            "currency": "CHF",
+            "symbol": "CHF",
+            "rate": "1.0041405",
+            "left": true
+        },
+        {
+            "currency": "CNY",
+            "symbol": "¥",
+            "rate": "8.248603",
+            "left": true
+        },
+        {
+            "currency": "CZK",
+            "symbol": "KČ",
+            "rate": "26.569125",
+            "left": false
+        },
+        {
+            "currency": "DKK",
+            "symbol": "KR.",
+            "rate": "7.797581",
+            "left": false
+        },
+        {
+            "currency": "DZD",
+            "symbol": "دج",
+            "rate": "152.58195898",
+            "left": true
+        },
+        {
+            "currency": "HKD",
+            "symbol": "HK$",
+            "rate": "8.852822",
+            "left": true
+        },
+        {
+            "currency": "HUF",
+            "symbol": "FT",
+            "rate": "410.9776",
+            "left": false
+        },
+        {
+            "currency": "ILS",
+            "symbol": "₪",
+            "rate": "4.1176135",
+            "left": true
+        },
+        {
+            "currency": "INR",
+            "symbol": "₹",
+            "rate": "94.89436",
+            "left": true
+        },
+        {
+            "currency": "JOD",
+            "symbol": "د.أ",
+            "rate": "0.80364889",
+            "left": false
+        },
+        {
+            "currency": "JPY",
+            "symbol": "¥",
+            "rate": "174.75535",
+            "left": true
+        },
+        {
+            "currency": "KRW",
+            "symbol": "₩",
+            "rate": "1567.51045",
+            "left": true
+        },
+        {
+            "currency": "KWD",
+            "symbol": "KD",
+            "rate": "0.34661605",
+            "left": false
+        },
+        {
+            "currency": "KZT",
+            "symbol": "₸",
+            "rate": "537.61495106",
+            "left": false
+        },
+        {
+            "currency": "MAD",
+            "symbol": "DH",
+            "rate": "11.215012105",
+            "left": false
+        },
+        {
+            "currency": "MXN",
+            "symbol": "MX$",
+            "rate": "20.7028085",
+            "left": true
+        },
+        {
+            "currency": "MYR",
+            "symbol": "RM",
+            "rate": "5.2967915",
+            "left": true
+        },
+        {
+            "currency": "NOK",
+            "symbol": "NKR",
+            "rate": "12.47939",
+            "left": false
+        },
+        {
+            "currency": "NZD",
+            "symbol": "NZ$",
+            "rate": "1.9089015",
+            "left": true
+        },
+        {
+            "currency": "PKR",
+            "symbol": "Rs./-",
+            "rate": "315.90988286",
+            "left": false
+        },
+        {
+            "currency": "QAR",
+            "symbol": "ر.ق",
+            "rate": "4.13824389",
+            "left": false
+        },
+        {
+            "currency": "RON",
+            "symbol": "L",
+            "rate": "5.194277",
+            "left": false
+        },
+        {
+            "currency": "RUB",
+            "symbol": "₽",
+            "rate": "96.487212745",
+            "left": true
+        },
+        {
+            "currency": "SAR",
+            "symbol": "ر.س.",
+            "rate": "4.254058105",
+            "left": false
+        },
+        {
+            "currency": "SGD",
+            "symbol": "S$",
+            "rate": "1.5232965",
+            "left": true
+        },
+        {
+            "currency": "TND",
+            "symbol": "د.ت",
+            "rate": "3.52326557",
+            "left": false
+        },
+        {
+            "currency": "TRY",
+            "symbol": "₺",
+            "rate": "37.2551905",
+            "left": true
+        },
+        {
+            "currency": "UZS",
+            "symbol": "СУМ",
+            "rate": "14274.633396925",
+            "left": true
+        },
+        {
+            "currency": "ZAR",
+            "symbol": "R",
+            "rate": "20.760179",
+            "left": true
+        }
+    ]
+}

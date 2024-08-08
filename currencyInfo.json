@@ -252,5 +252,51 @@
             "rate": "20.760179",
             "left": true
         }
+    ],
+    "regionalRestrictions": [
+        {
+          "code": "WW",
+          "fullName": "WorldWide"
+        },
+        {
+          "code": "RoW",
+          "fullName": "Rest of World"
+        },
+        {
+          "code": "EU",
+          "fullName": "European Union"
+        },
+        {
+          "code": "NA",
+          "fullName": "North America"
+        },
+        {
+          "code": "LATAM",
+          "fullName": "Latin America"
+        },
+        {
+          "code": "ASIA",
+          "fullName": "Asia"
+        },
+        {
+          "code": "CIS",
+          "fullName": "Commonwealth of Independent States"
+        },
+        {
+          "code": "RU",
+          "fullName": "Russia"
+        },
+        {
+          "code": "TURKEY",
+          "fullName": "Turkey"
+        },
+        {
+          "code": "DE",
+          "fullName": "Germany"
+        },
+        {
+          "code": "UK",
+          "fullName": "United Kingdom"
+        }
     ]
 }

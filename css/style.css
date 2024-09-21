@@ -1,0 +1,414 @@
+.kinguin_discount_block
+{
+    position: absolute;
+    margin-top: -40px;
+    right: 2px;
+}
+
+span.kinguin_crown
+{
+    background: url("https://www.kinguin.net/favicon.ico");
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 9px;
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    background-position: center;
+    background-size: cover;
+}
+
+.multiply_discount_block { 
+    position: absolute;
+    margin-top: 30px;
+    right: 20px;
+}
+
+#kinguin_settings_button {
+    width: 28px;
+    height: 24px;
+    float: left;
+    border-radius: 2px;
+    margin-right: 6px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+#kinguin_settings_button:hover {
+    background: #3d4450;
+}
+
+#kinguin_settings_button::before {
+    content: '';
+    width: 27px;
+    height: 24px;
+    position: absolute;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://www.kinguin.net/favicon.ico");
+}
+
+#kinguin_settings_main {
+    margin-top: 8%;
+    padding: 10px;
+    background-color: #171d25;
+    width: 850px;
+    border-radius: 10px;
+    margin-left: calc(50% - 435px);
+}
+
+#kinguin_settings {
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: .2s ease-in-out;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.show_panel {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hide_panel {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.regional_block {
+    display: grid;
+    float: left;
+}
+  
+.regional_block label, #kinguin_types label {
+    cursor: pointer;
+    user-select: none;
+}
+
+#kinguin_settings p, #kinguin_settings h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#kinguin_settings h2 {
+    font-size: 24px;
+    color: #dcdedf;
+    margin-bottom: 30px;
+}
+
+#kinguin_settings p {
+    font-size: 16px;
+    color: #b2b8bd;
+    margin-bottom: 20px;
+}
+
+#kinguin_regions, #kinguin_types, #kinguin_storage, #kinguin_currencies {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    justify-content: space-evenly;
+    display: inline-flex;
+}
+
+.kinguin_discount_block_dlc {
+    position: absolute;
+    right: 80px;
+    border: solid rgb(27, 40, 56);
+    color: #ffffff;
+    border-width: 0px 1px;
+    height: 100%;
+    top: 0;
+    padding: 0 10px;
+    align-content: center;
+}
+
+.block_long {
+    right: 150px !important;
+}
+
+.kinguin_discount_block_dlc a:hover, .kinguin_discount_block_bundleItem a:hover, .kinguin_discount_block_small a:hover, .kinguin_discount_block_capsule_container a:hover {
+    color: white;
+}
+
+.kinguin_discount_block_dlc span.kinguin_crown, .kinguin_discount_block_other span.kinguin_crown, .kinguin_discount_block_bundleItem span.kinguin_crown, .kinguin_discount_block_capsule_container span.kinguin_crown {
+    transform: scale(1.1);
+}
+
+.kinguin_discount_block_edition {
+    display: inline-block;
+    border: 2px solid black;
+    background: black;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.kinguin_discount_block_newDLC {
+    position: relative;
+    margin-top: -79px;
+    margin-bottom: -29px;
+    margin-right: 11px;
+    float: right;
+}
+
+.kinguin_discount_block_other {
+    position: absolute;
+    font-size: 11px;
+    bottom: 3px;
+    right: 0;
+}
+
+.kinguin_discount_block_other a {
+    height: 0 !important;
+    padding: 0 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.store_horizontal_autoslider_ctn {
+    height: 142px !important;
+}
+
+.small_cap {
+    height: 110px !important;
+}
+
+.game_purchase_action {
+    right: 16px !important;
+    left: auto !important;
+}
+
+.kinguin_discount_block_bundleItem {
+    position: absolute;
+    right: 80px;
+    border: solid rgb(27, 40, 56);
+    color: #ffffff;
+    border-width: 0px 1px 0px 0px;
+    height: 100%;
+    top: 0;
+    padding: 0 10px;
+    align-content: center;
+    width: max-content;
+    z-index: 99;
+}
+
+.kinguin_discount_block_big, .kinguin_discount_block_medium {
+    position: absolute;
+    height: 30px;
+    align-content: center;
+    border-radius: 1px;
+    background: #344654;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.kinguin_discount_block_big {
+    bottom: 23px;
+    right: 16px;
+}
+
+.kinguin_discount_block_medium {
+    bottom: 3px;
+    left: 3px;
+}
+
+.kinguin_discount_block_big a, .kinguin_discount_block_big a:hover, .kinguin_discount_block_medium a, .kinguin_discount_block_medium a:hover {
+    color: #beee11;
+}
+
+.kinguin_discount_block_small {
+    z-index: 1;
+    position: absolute;
+    background: black;
+    border-radius: 3px;
+    width: auto;
+    bottom: 0px;
+    height: 37px;
+    padding-left: 7px;
+    align-content: center;
+    font-size: 13px;
+}
+
+.kinguin_sub {
+    bottom: 22px;
+    right: 15px;
+}
+
+.kinguin_discount_block_capsule_container {
+    position: absolute;
+    left: 40px;
+    font-size: 11px;
+}
+
+.kinguin_discount_block_capsule_recommendation {
+    right: 15px;
+    padding: 0 5px;
+    bottom: 11px;
+    left: auto;
+    width: max-content;
+    background-color: black;
+}
+
+#kinguin_loading {
+    bottom: 0;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    right: 0;
+    z-index: 1;
+    margin: 30px;
+    background: rgba(64, 81, 99, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#kinguin_loading::before {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: calc(50% - 45px);
+    content: '';
+    position: absolute;
+    background-position: center;
+    background: url("https://github.com/Juzlus/Kinguin-Deals-for-Steam/blob/main/kinguin_loading.png?raw=true");
+    background-size: cover;
+    animation: loading-rotate 1.5s infinite;
+}
+
+#kinguin_loading span {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    display: block;
+    font-family: "Motiva Sans", Sans-serif;
+    color: white;
+}
+
+@keyframes loading-rotate {
+    to {
+       transform: rotate(1turn);
+    }
+ }
+
+#kinguin_types label, #kinguin_regions label, #kinguin_currencies label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #8f98a0;
+    margin-bottom: 10px;
+}
+
+#kinguin_types input, #kinguin_regions input, #kinguin_currencies input {
+    margin-right: 10px;
+    cursor: pointer;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #8f98a0;
+    border-radius: 4px;
+    position: relative;
+    transition: border-color, color 0.3s ease;
+}
+
+#kinguin_currencies input {
+    border-radius: 50% !important;
+}
+
+#kinguin_types input:checked, #kinguin_regions input:checked, #kinguin_currencies input:checked {
+    border-color: #9ec510;
+    background: #9ec510;
+}
+
+#kinguin_types input:checked + span, #kinguin_regions input:checked + span, #kinguin_currencies input:checked + span {
+    color: #9ec510;
+}
+
+#kinguin_types input:hover, #kinguin_regions input:hover, #kinguin_currencies input:hover {
+    border-color: #666;
+}
+
+#kinguin_types input:hover + span, #kinguin_regions input:hover + span, #kinguin_currencies input:hover + span {
+    color: #666;
+}
+
+#kinguin_types input:checked:hover, #kinguin_regions input:checked:hover, #kinguin_currencies input:checked:hover {
+    border-color: #5fa016;
+    background: #5fa016;
+}
+
+#kinguin_types input:checked:hover + span, #kinguin_regions input:checked:hover + span, #kinguin_currencies input:checked:hover +span {
+    color: #5fa016;
+}
+
+#kinguin_storage {
+    margin-bottom: 30px;
+}
+
+#kinguin_storage span {
+    font-size: 13px;
+    color: #8f98a0;
+}
+
+#storage_cooldown_text {
+    position: absolute;
+    margin-left: 5px;
+    color: #9ec510 !important;
+}
+
+#kinguin_storage input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 1px;
+    background: #8f98a0;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+#kinguin_storage input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9ec510;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#kinguin_storage input[type="range"]:hover {
+    background: #666;
+}
+
+#kinguin_storage input[type="range"]::-webkit-slider-thumb:hover {
+    background: #5fa016;
+}
+
+#kinguin_storage input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9ec510;
+    cursor: pointer;
+}
+
+#kinguin_reset {
+    padding: 8px 13px;
+    background: #9ec510;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#kinguin_reset:hover {
+    background: #5fa016;
+}

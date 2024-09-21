@@ -1,0 +1,133 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 500px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    background-color: rgb(25 24 30);
+}
+
+h3 {
+    text-align: center;
+}
+
+a, a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.battle-cases a {
+    display: block;
+    padding: 3px;
+    margin-top: -21px;
+    background-color: #1f1f1f;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    margin-left: 70px;
+}
+
+h1::before {
+    content: '';
+    width: 70px;
+    height: 59px;
+    margin: 0;
+    padding: 0;
+    margin-top: -18px;
+    margin-left: -80px;
+    position: absolute;
+    background-image: url('./icons/kd.png');
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+}
+
+header, footer {
+    background-color: rgb(35, 35, 36);
+}
+
+.configuration {
+    text-align: center;
+}
+
+.configuration label {
+    display: block;
+    padding: 7px;
+    cursor: pointer;
+    width: 87%;
+    border-radius: 25px;
+    margin: 8px;
+    background-color: rgba(75, 38, 38, 0.397);
+}
+
+.configuration label:hover {
+    background-color: rgba(75, 73, 38, 0.39);
+}
+
+.configuration input:checked + label {
+    background-color: rgba(41, 75, 38, 0.397);
+}
+
+.configuration input {
+   display: none;
+}
+
+.battle-cases li {
+    width: 150px;
+    height: 50px;
+    border:  none;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    filter: brightness(50%);
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 150px;
+    border: 1px solid rgb(25 24 30);
+}
+
+.battle-cases li p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.battle-cases ul input {
+    display: none;
+}
+
+.configuration ul {
+    list-style: none;
+}
+
+#case_players {
+    width: 20px;
+    margin-right: 0px;
+    float: left;
+    margin-top: -43px;
+    border-radius: 10px;
+}
+
+#case_players_text {
+    width: 359px;
+    cursor: default;
+    border-radius: 10px;
+}
+
+.battle-cases li:hover {
+    background-size: 170px;
+    border: 1px solid rgb(255, 174, 0);
+}
+
+.battle-cases ul input:checked + label li {
+    background-size: 170px;
+    filter: brightness(100%);
+    border: 1px solid rgb(255, 174, 0);
+}

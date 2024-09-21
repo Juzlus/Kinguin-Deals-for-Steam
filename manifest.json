@@ -1,0 +1,94 @@
+{
+    "manifest_version": 3,
+    "name": "Kinguin Deals for Steam",
+    "version": "1.0",
+    "author": ["🇯🅤🇿🅛🇺🅢#0420"],
+    "icons": {
+        "128": "icons/128.png" 
+    },
+    "description": "AAAAAAAA",
+    "permissions": [ 
+        "storage",
+        "unlimitedStorage",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://store.steampowered.com/wishlist/*",
+                "https://store.steampowered.com/app/*",
+                "https://store.steampowered.com/bundle/*",
+                "https://store.steampowered.com/sub/*",
+                "https://store.steampowered.com/cart/*",
+                "https://store.steampowered.com/dlc/*",
+                "https://store.steampowered.com/franchise/*",
+                "https://store.steampowered.com/tags/*"
+            ],
+            "js":[
+                "scripts/lz-string.min.js",
+                "scripts/config.js",
+                "scripts/main.js",
+                "scripts/settings.js"
+            ],
+            "css":[
+                "css/style.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://store.steampowered.com/wishlist/*"
+            ],
+            "js":[
+                "scripts/wishlist.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://store.steampowered.com/app/*"
+            ],
+            "js":[
+                "scripts/appPage.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://store.steampowered.com/bundle/*",
+                "https://store.steampowered.com/sub/*"
+            ],
+            "js":[
+                "scripts/bundlePage.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://store.steampowered.com/cart/*"
+            ],
+            "js":[
+                "scripts/cartPage.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://store.steampowered.com/dlc/*",
+                "https://store.steampowered.com/franchise/*"
+            ],
+            "js":[
+                "scripts/dlcPage.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://store.steampowered.com/tags/*"
+            ],
+            "js":[
+                "scripts/tagPage.js"
+            ]
+        }
+    ]
+}
